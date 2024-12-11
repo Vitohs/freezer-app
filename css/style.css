@@ -1,0 +1,93 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    font-family: 'Helvetica', sans-serif;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+.btm
+{
+    display: inline-block;
+    padding: 15px 60px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border: none;
+    background-color: #111;
+    color: #ccc;
+    border-radius: 5px;
+    transition: background 500ms ease;
+}
+.btm:hover
+{
+    cursor: pointer;
+    background-color: #000;
+}
+
+#navbar
+{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: #111111;
+    color: #eee;
+}
+
+#nav-container
+{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-items
+{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+#nav-items li
+{
+    padding: 10px;
+}
+
+.logo
+{
+    font-size: 2rem;
+}
+
+#show-container
+{
+    text-align: center;
+}
+
+#show
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+    background: url(/pics/morumba.jpg) no-repeat center/cover; /* basicamente ele nao vai espelhar a mesma imagem ate cobrir o tamnho da header
+    /* aqui to deicando a imagem mais preta */
+    background-color: rgba(0, 0, 0,0.4);
+    background-blend-mode: color;
+}
+footer
+{
+    background-color: #111;
+    color: #ccc;
+    text-align: center;
+    padding: 40px 0;
+}
