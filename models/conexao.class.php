@@ -9,13 +9,10 @@ class Conexao
         $dbname = "login";
         try 
         {
-            $this->db = new mysqli($servername, $username, $password, $dbname);
-            if ($this->db->connect_error) 
-            {
-                throw new Exception("Connection failed: " . $this->db->connect_error);
-            }
+            $this->db = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+            $this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         } 
-        catch (Exception $e) 
+        catch (PDOException $e) 
         {
             echo "Erro ao conectar ao banco de dados: " . $e->getMessage();
         }

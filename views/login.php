@@ -1,17 +1,16 @@
 <?php
     require_once 'Menu.php';
-    echo "aaaaaa";
 ?>
-<form class="login" action="" method='post'>
+
+<form class="login" action="/login" method='post'>
     <legend>
         <h2>
-            login
+            Faça seu login
         </h2>
     </legend>
-    <label for="email">Email:
-        <input type="email" name="email" id="email" placeholder="insira seu email" required>
-    </label>
-    <label for="senha">Senha:
-        <input type="password" name="senha" id="senha" placeholder="insira sua senha" required>
-    </label>
+    <br>
+        <input class='logininput' type="email" name="email" id="email" placeholder="insira seu email" required>
+    <br>
+        <input class='logininput' type="password" name="senha" id="senha" placeholder="insira sua senha" required>
+    <button class="loginbtm" type="submit">Partiu</button>
 </form>

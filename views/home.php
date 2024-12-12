@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="css/style.css">
 <?php
     require_once 'Menu.php';
 ?>
@@ -8,6 +9,4 @@
             <a href="" class="btm">Saiba mais</a>
         </div>
     </header>
-<footer>
-    vitor 2024 todos os direitos reservados
-</footer>
+<?php require_once 'footer.php'; ?>

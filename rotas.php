@@ -28,5 +28,10 @@
 	//instanciar um objeto classe Rotas
 	$route = new Rotas();
 	$route->get("/",[iniciocontroller::class,"inicio"]);
+
 	$route->get("/login",[logincontroller::class,"login"]);
+	$route->get("/logout",[logincontroller::class,"logout"]);
+	$route->post("/login",[logincontroller::class,"login"]);
+
 	$route->get("/cadastro",[cadastrocontroller::class,"cadastro"]);
+	$route->post("/cadastro",[cadastrocontroller::class,"cadastro"]);

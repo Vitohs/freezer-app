@@ -34,7 +34,6 @@ a
 
 #navbar
 {
-    position: fixed;
     width: 100%;
     height: 80px;
     background-color: #111111;
@@ -90,4 +89,77 @@ footer
     color: #ccc;
     text-align: center;
     padding: 40px 0;
+}
+.login
+{
+    
+    height: 40%;
+    width: 50%;
+    border: 2px solid #ccc;
+    border-radius: 3%;
+    background-color: #111;
+    color: #ccc;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-top: 8%;
+}
+legend
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.loginbtm
+{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 200px;
+    height: 22px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+.logininput
+{
+    width: 80%;
+    height: 30px;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.cadastro
+{
+    height: 50%;
+    width: 50%;
+    border: 2px solid #ccc;
+    border-radius: 3%;
+    background-color: #111;
+    color: #ccc;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-top: 8%;
+}
+.cad
+{
+    width: 80%;
+    height: 35px;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 2%;
+}
+.cadbtm
+{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 250px;
+    height: 25px;
+    margin-top: 65px;
+    cursor: pointer;
 }
